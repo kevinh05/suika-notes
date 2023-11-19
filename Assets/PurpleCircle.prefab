@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1251274740820228964}
   - component: {fileID: 5616050054203937850}
   - component: {fileID: 1394174294218168886}
+  - component: {fileID: -9010527201453509833}
   m_Layer: 0
   m_Name: PurpleCircle
   m_TagString: Untagged
@@ -148,3 +149,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-9010527201453509833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5807126902975524775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 479a7252861f7a140abeccd2c2db897d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

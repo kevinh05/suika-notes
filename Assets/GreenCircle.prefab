@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6307814018535121404}
   - component: {fileID: 794388918795063774}
   - component: {fileID: 6882266355017297604}
+  - component: {fileID: 2142836348330567021}
   m_Layer: 0
   m_Name: GreenCircle
   m_TagString: Untagged
@@ -148,3 +149,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2142836348330567021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2569251327862278625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 479a7252861f7a140abeccd2c2db897d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

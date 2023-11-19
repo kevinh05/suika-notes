@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 3626102752334041966}
   - component: {fileID: 915052717796703027}
   - component: {fileID: 7348186873131944565}
+  - component: {fileID: 824049033103845140}
   m_Layer: 0
   m_Name: YellowCircle
-  m_TagString: Untagged
+  m_TagString: 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -148,3 +149,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &824049033103845140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133467636636595205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 479a7252861f7a140abeccd2c2db897d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
