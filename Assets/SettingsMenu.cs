@@ -30,7 +30,13 @@ public class SettingsMenu : MonoBehaviour
 
 	public AudioMixer audioMixer;
 	public void PlayGame(){
-		SceneManager.LoadScene(1);
+		int screen_num;
+		if(GlobalManager.Instance.isChord){
+			screen_num = 1;
+		}else{
+			screen_num = 2;
+		}
+		SceneManager.LoadScene(screen_num);
 	}
     public void SetVolume(float volume){
 		audioMixer.SetFloat("volume", volume);
