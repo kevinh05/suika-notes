@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Xml;
 using Unity.VisualScripting;
 using UnityEngine;
+using TMPro;
     
 public class CloudCon : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class CloudCon : MonoBehaviour
     static public Vector2 spawnPos;
     static public string newFruit = "n";
     static public int whichFruit = 0;
+    public int scoreValue = 0;
+    public TMP_Text scoreText;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +25,7 @@ public class CloudCon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        scoreText.text = "Score: \n" + scoreValue;
         spawnFruit();
         replaceFruit();
 
@@ -38,12 +42,12 @@ public class CloudCon : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
         }
 
-        if (GetComponent<Rigidbody2D>().velocity.x < 0 && transform.position.x < -2.05)
+        if (GetComponent<Rigidbody2D>().velocity.x < 0 && transform.position.x < -2.00)
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
         }
 
-        if (GetComponent<Rigidbody2D>().velocity.x > 0 && transform.position.x > 2.0)
+        if (GetComponent<Rigidbody2D>().velocity.x > 0 && transform.position.x > 2.00)
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
         }
@@ -52,6 +56,16 @@ public class CloudCon : MonoBehaviour
 
         if (Input.GetKeyDown("space") && spawnedYet == "y")
         {
+            spawnedYet = "n";   
+        }
+        if (Input.GetMouseButtonDown(0) && spawnedYet == "y")
+        {
+            var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            if (mousePos.x < -2.0 || mousePos.x > 2.0)
+            {
+                mousePos.x = 0;
+            }
+            cloudxPos = new Vector2(mousePos.x, gameObject.transform.position.y);
             spawnedYet = "n";   
         }
     }
@@ -70,6 +84,7 @@ public class CloudCon : MonoBehaviour
     {
         if (newFruit == "y")
         {
+            scoreValue += whichFruit;
             newFruit = "n";
             if (whichFruit + 1 < fruitObj.Length)
             {
