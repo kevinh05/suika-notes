@@ -51,13 +51,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
+	<li><a href="#getting-started">Usage</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -143,38 +137,11 @@ Suika Symphony is not just a game; it's a creative approach to make music educat
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/kevinh05/suika-notes.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+**Link goes here**
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -185,10 +152,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Mp4 analysis and automatic level construction
+- [ ] Dynamic music following chord construction upon merging notes
+- [ ] Powerup implementation
+    - [ ] Fermata Freeze
+	- [ ] Scherzo Splitting
+	- [ ] Mezzo Magic
+	- [ ] ...
 
 See the [open issues](https://github.com/kevinh05/suika-notes/issues) for a full list of proposed features (and known issues).
 
@@ -201,7 +171,7 @@ See the [open issues](https://github.com/kevinh05/suika-notes/issues) for a full
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+If you have a suggestion that would make this game better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
@@ -230,7 +200,6 @@ The Team: Shaan Doshi, Kevin Huang, Jack Morby, Henry Piper
 
 Emails: shaandoshi4@gmail.com, kh47@illinois.edu jmorby2@illinois.edu, hjpiper2@illinois.edu
 
-
 Project Link: [https://github.com/kevinh05/suika-notes](https://github.com/kevinh05/suika-notes)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -239,9 +208,9 @@ Project Link: [https://github.com/kevinh05/suika-notes](https://github.com/kevin
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* A big thank you to Bo, Hans, and the other mentors that helped get us off the ground with app development
+* Forever indebted to UMich for the hearty sandwiches that kept us fueled during the day
+* Big shoutout to A Fleming on YouTube for his great video on how to host a WebGL Unity Game on a Github Page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
