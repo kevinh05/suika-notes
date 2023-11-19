@@ -820,24 +820,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1627869492309787266, guid: abc5fe5ca9a5dfa41b714491edd09a2e, type: 3}
       propertyPath: fruitObj.Array.size
-      value: 2
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1627869492309787266, guid: abc5fe5ca9a5dfa41b714491edd09a2e, type: 3}
       propertyPath: numOfSpawnableFruits
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1627869492309787266, guid: abc5fe5ca9a5dfa41b714491edd09a2e, type: 3}
       propertyPath: fruitObj.Array.data[0]
       value: 
-      objectReference: {fileID: 4535085745396745090, guid: 77d37a9c56874254687ad4f8d4e08e1c, type: 3}
+      objectReference: {fileID: 418596817782525362, guid: c21f30e1993671e4482cd9bf207a6f49, type: 3}
     - target: {fileID: 1627869492309787266, guid: abc5fe5ca9a5dfa41b714491edd09a2e, type: 3}
       propertyPath: fruitObj.Array.data[1]
       value: 
-      objectReference: {fileID: 7103870803624613652, guid: 914eea1a7b3ac6d49904f86d7ef8b9fd, type: 3}
+      objectReference: {fileID: 3412354373223045863, guid: ca4bf92de0031d74abf36b65c6867819, type: 3}
     - target: {fileID: 1627869492309787266, guid: abc5fe5ca9a5dfa41b714491edd09a2e, type: 3}
       propertyPath: fruitObj.Array.data[2]
       value: 
-      objectReference: {fileID: 7103870803624613652, guid: 914eea1a7b3ac6d49904f86d7ef8b9fd, type: 3}
+      objectReference: {fileID: 8924234862237954802, guid: 4411ed796fca289489ddb6bc0b592b6a, type: 3}
+    - target: {fileID: 1627869492309787266, guid: abc5fe5ca9a5dfa41b714491edd09a2e, type: 3}
+      propertyPath: fruitObj.Array.data[3]
+      value: 
+      objectReference: {fileID: 2808544518920979913, guid: 18abe9fd58938ee4aa4022197235a5e2, type: 3}
+    - target: {fileID: 1627869492309787266, guid: abc5fe5ca9a5dfa41b714491edd09a2e, type: 3}
+      propertyPath: fruitObj.Array.data[4]
+      value: 
+      objectReference: {fileID: 7519060229852984985, guid: 24091dae67922454ca48848e369b6f79, type: 3}
+    - target: {fileID: 1627869492309787266, guid: abc5fe5ca9a5dfa41b714491edd09a2e, type: 3}
+      propertyPath: fruitObj.Array.data[5]
+      value: 
+      objectReference: {fileID: 8888305129692437546, guid: 0b9d8cbedaf027b458ff427cff181d9c, type: 3}
+    - target: {fileID: 1627869492309787266, guid: abc5fe5ca9a5dfa41b714491edd09a2e, type: 3}
+      propertyPath: fruitObj.Array.data[6]
+      value: 
+      objectReference: {fileID: 1974404536806423082, guid: 57f96c9d5cf1a044386a4805282f8c67, type: 3}
+    - target: {fileID: 1627869492309787266, guid: abc5fe5ca9a5dfa41b714491edd09a2e, type: 3}
+      propertyPath: fruitObj.Array.data[7]
+      value: 
+      objectReference: {fileID: 6203995626032684173, guid: b404e1caf320d054d99f25bf3f58e185, type: 3}
+    - target: {fileID: 1627869492309787266, guid: abc5fe5ca9a5dfa41b714491edd09a2e, type: 3}
+      propertyPath: fruitObj.Array.data[8]
+      value: 
+      objectReference: {fileID: 7649501067242130132, guid: f9d8837bba00f394e8d7cbfa569a9fc5, type: 3}
     - target: {fileID: 4454143567298920979, guid: abc5fe5ca9a5dfa41b714491edd09a2e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.04
