@@ -26,7 +26,7 @@
 <h3 align="center">Suika_Symphony</h3>
 
   <p align="center">
-    Suika_Symphony is our Game Dev project for 2023 MHacks, and we're glad you are here to check it out!
+    Suika_Symphony is our Game Dev project for 2023 MHacks, and we're glad you are here to check it out! https://kevinh05.github.io/suika-notes/
     <br />
     <a href="https://github.com/kevinh05/suika-notes"><strong>Explore the docs »</strong></a>
     <br />
@@ -52,7 +52,6 @@
       </ul>
     </li>
 	<li><a href="#getting-started">Usage</a></li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -64,35 +63,35 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="readme-assets/suika-title.png" alt="Logo" width="240" height="120">
+
+**What is Suika?**
+
+Suika is a viral game that has taken the innternet by storm over the past two weeks. It is equal-parts satisfying and frustrating, and is always extremely hard to put down. We wanted 
 
 Suika Symphony is an innovative project that transforms the traditional Suika game into an engaging educational tool for children to learn and understand music theory. Developed for the MHacks hackathon, Suika Symphony combines the excitement of the original game with educational elements, creating a fun and interactive platform for young learners.
 
-**Key Features:**
+<img src="readme-assets/suika-beginner-tips.png" alt="Logo" width="240" height="120">
 
-**Musical Fruit Notes:**
+**What is Suika Symphony**
 
-Instead of conventional watermelon slices, Suika Symphony features fruit slices representing musical notes. Each slice corresponds to a specific note on the musical scale.
+Instead of conventional fruit slices, Suika Symphony features musical notes that combine in fun and accurate ways. Each slice corresponds to a specific note on the musical scale or to a specific measure of musical time.
 
-**Melodic Challenges:**
+**Chord Challenges:**
 
-Players engage in musical challenges where they must hit the correct fruit notes in sequence to create melodies. Successful completion of challenges advances players to more complex musical compositions.
+Players engage in musical challenges where they must hit the correct fruit notes in sequence to create chords. In the future, the successful completion of challenges advances players to more complex musical compositions. Currently, a diverse collection of chords can be made including five different tri-tones and twelve different two-note combinations. 
 
 **Rhythm and Timing:**
 
-Suika Symphony incorporates rhythm and timing elements into the gameplay, helping children develop a sense of musical timing and coordination as they slice through the musical fruits.
+Suika Symphony incorporates rhythm and timing elements into the gameplay, helping children develop a sense of musical timing and coordination as they slice through the musical fruits along to the groovy background music.
 
 **Interactive Lessons:**
 
-The game includes interactive lessons on fundamental music theory concepts such as pitch, tempo, and dynamics. These lessons are seamlessly integrated into the gameplay, ensuring an immersive learning experience.
+The game includes interactive lessons on fundamental music theory concepts such as pitch and tempo. These lessons are seamlessly integrated into the gameplay, ensuring an immersive learning experience.
 
 **Virtual Music Instructor:**
 
-A virtual music instructor guides players through the game, providing feedback, tips, and encouragement. This character serves as a mentor, making the learning process more engaging and enjoyable.
-
-**Progress Tracking:**
-
-Parents and educators can monitor the child's progress through a dedicated dashboard, which displays achievements, areas for improvement, and overall musical development.
+One goal for the future is to implement a virtual music instructor that can guide players through the game, providing feedback, tips, and encouragement. This character serves as a mentor, making the learning process more engaging and enjoyable, and would be based of a language model API.
 
 **Customizable Learning Paths:**
 
@@ -134,18 +133,11 @@ Suika Symphony is not just a game; it's a creative approach to make music educat
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+All you need to do to get started playing our game is to follow this link:
 
+https://kevinh05.github.io/suika-notes/
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-**Link goes here**
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+We hosted our game on github pages, so it is integrated seamlessly with your web browser using WebGL
 
 
 
