@@ -5,8 +5,8 @@ using UnityEngine;
 public class FruitCon : MonoBehaviour
 {
 
-			[SerializeField] private AudioSource dropSoundEffect;
-	[Header("------")]
+	//		[SerializeField] private AudioSource dropSoundEffect;
+	//[Header("------")]
 
     private string inTheCloud = "y";
     private string timeToCheck = "n";
@@ -48,7 +48,7 @@ public class FruitCon : MonoBehaviour
             CloudCon.newFruit = "y";
             CloudCon.whichFruit = int.Parse(gameObject.tag);
             Destroy(gameObject);
-			dropSoundEffect.play();
+			//dropSoundEffect.play();
         }
     }
 
