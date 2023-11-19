@@ -9,7 +9,7 @@ public class CloudCon : MonoBehaviour
     public Transform[] fruitObj;
     static public string spawnedYet = "n";
     static public Vector2 cloudxPos;
-    public int numOfSpawnableFruits = 2;
+    public int numOfSpawnableFruits = 4;
     static public Vector2 spawnPos;
     static public string newFruit = "n";
     static public int whichFruit = 0;
