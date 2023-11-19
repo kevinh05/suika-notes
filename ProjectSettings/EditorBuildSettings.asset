@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameRythm.unity
     guid: e18b4adeb80a03945a436b966eaa6d3a
+  - enabled: 1
+    path: Assets/Scenes/ChordScene.unity
+    guid: 3783302c502a95c4891509872242bfdf
   m_configObjects: {}
