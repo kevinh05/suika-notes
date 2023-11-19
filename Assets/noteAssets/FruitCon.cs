@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class FruitCon : MonoBehaviour
 {
+
+			[SerializeField] private AudioSource dropSoundEffect;
+	[Header("------")]
+
     private string inTheCloud = "y";
     private string timeToCheck = "n";
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +48,7 @@ public class FruitCon : MonoBehaviour
             CloudCon.newFruit = "y";
             CloudCon.whichFruit = int.Parse(gameObject.tag);
             Destroy(gameObject);
+			dropSoundEffect.play();
         }
     }
 

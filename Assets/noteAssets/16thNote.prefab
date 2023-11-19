@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5294804142633833579}
   - component: {fileID: 8141278823939380868}
   - component: {fileID: 2366489261872163471}
-  - component: {fileID: -573947763311229580}
+  - component: {fileID: 7958677632057577801}
   m_Layer: 0
   m_Name: 16thNote
   m_TagString: 0
@@ -287,7 +287,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-573947763311229580
+--- !u!114 &7958677632057577801
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
