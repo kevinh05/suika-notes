@@ -1,22 +1,12 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
 *** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
 *** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+*** for contributors-url, forks-url, etc.
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -26,7 +16,6 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -34,10 +23,10 @@
     <img src="readme-assets/16thCropped.png" alt="Logo" width="120" height="120">
   </a>
 
-<h3 align="center">Suika_Notes</h3>
+<h3 align="center">Suika_Symphony</h3>
 
   <p align="center">
-    Suika_Notes is our Game Dev project for 2023 MHacks, and we're glad you are here to check it out!
+    Suika_Symphony is our Game Dev project for 2023 MHacks, and we're glad you are here to check it out!
     <br />
     <a href="https://github.com/kevinh05/suika-notes"><strong>Explore the docs »</strong></a>
     <br />
@@ -78,29 +67,71 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `kevinh05`, `suika-notes`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Suika Symphony is an innovative project that transforms the traditional Suika game into an engaging educational tool for children to learn and understand music theory. Developed for the MHacks hackathon, Suika Symphony combines the excitement of the original game with educational elements, creating a fun and interactive platform for young learners.
+
+**Key Features:**
+
+**Musical Fruit Notes:**
+
+Instead of conventional watermelon slices, Suika Symphony features fruit slices representing musical notes. Each slice corresponds to a specific note on the musical scale.
+
+**Melodic Challenges:**
+
+Players engage in musical challenges where they must hit the correct fruit notes in sequence to create melodies. Successful completion of challenges advances players to more complex musical compositions.
+
+**Rhythm and Timing:**
+
+Suika Symphony incorporates rhythm and timing elements into the gameplay, helping children develop a sense of musical timing and coordination as they slice through the musical fruits.
+
+**Interactive Lessons:**
+
+The game includes interactive lessons on fundamental music theory concepts such as pitch, tempo, and dynamics. These lessons are seamlessly integrated into the gameplay, ensuring an immersive learning experience.
+
+**Virtual Music Instructor:**
+
+A virtual music instructor guides players through the game, providing feedback, tips, and encouragement. This character serves as a mentor, making the learning process more engaging and enjoyable.
+
+**Progress Tracking:**
+
+Parents and educators can monitor the child's progress through a dedicated dashboard, which displays achievements, areas for improvement, and overall musical development.
+
+**Customizable Learning Paths:**
+
+Suika Symphony allows customization of learning paths based on the child's age and skill level, ensuring that the educational content aligns with individual learning needs.
+
+**Educational Goals:**
+
+Suika Symphony aims to achieve the following educational objectives:
+
+Introduce children to the basics of music theory in a playful and entertaining manner.
+Foster a love for music by making learning an enjoyable experience.
+Develop essential cognitive skills such as memory, attention, and coordination through gameplay.
+Provide a foundation for future music education endeavors.
+
+**Why Suika Symphony?**
+
+Suika Symphony is not just a game; it's a creative approach to make music education accessible and enjoyable for children. By combining the excitement of the Suika game with educational content, Suika Symphony empowers young minds to embark on a musical journey while having a blast at the same time.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
 
-* [![Next][Next.js]][Next-url]
+* [![Unity][Unity.com]][Unity-url]
+* [![Adobe][Adobe.com]][Adobe-url]
+* [![Github][Github.com]][Github-url]
+<!-- * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![JQuery][JQuery.com]][JQuery-url] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,21 +258,11 @@ Project Link: [https://github.com/kevinh05/suika-notes](https://github.com/kevin
 [license-shield]: https://img.shields.io/github/license/kevinh05/suika-notes.svg?style=for-the-badge
 [license-url]: https://github.com/kevinh05/suika-notes/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/jack-morby
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[Unity.com]: https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white
+[Unity-url]: https://unity.com/
+[Adobe.com]: https://img.shields.io/badge/Adobe-DD0031?style=for-the-badge&logo=Adobe&logoColor=white
+[Adobe-url]: https://adobe.com/
+[Github.com]: https://img.shields.io/badge/Github_Pages-4A4A55?style=for-the-badge&logo=Github&logoColor=white
+[Github-url]: https://github.com/
