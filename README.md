@@ -226,12 +226,14 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+The Team: Shaan Doshi, Kevin Huang, Jack Morby, Henry Piper
+
+Emails: shaandoshi4@gmail.com, kh47@illinois.edu jmorby2@illinois.edu, hjpiper2@illinois.edu
+
 
 Project Link: [https://github.com/kevinh05/suika-notes](https://github.com/kevinh05/suika-notes)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ACKNOWLEDGMENTS -->
