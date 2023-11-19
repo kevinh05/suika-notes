@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: d58d0b24a7e3acc44adb40caf0523322, type: 3}
-  m_Color: {r: 0.7283019, g: 0.7283019, b: 0.7283019, a: 1}
+  m_Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -127,3 +127,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fruitObj: []
   numOfSpawnableFruits: 2
+  scoreValue: 0
+  scoreText: {fileID: 0}
