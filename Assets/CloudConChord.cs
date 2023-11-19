@@ -4,6 +4,7 @@ using System.Xml;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
     
 public class CloudConChord : MonoBehaviour
 {
@@ -14,8 +15,8 @@ public class CloudConChord : MonoBehaviour
     static public Vector2 spawnPos;
     static public string newFruit = "n";
     static public int whichChord = 0;
-    // static public int scoreValue = 0;
-    // static public Text scoreText;
+    public int scoreValue = 0;
+    public TMP_Text scoreText;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class CloudConChord : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        scoreText.text = "Score: \n" + scoreValue;
         spawnFruit();
         replaceFruit();
 
@@ -42,12 +44,12 @@ public class CloudConChord : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
         }
 
-        if (GetComponent<Rigidbody2D>().velocity.x < 0 && gameObject.transform.position.x < 17.8)
+        if (GetComponent<Rigidbody2D>().velocity.x < 0 && gameObject.transform.position.x < 18.0)
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
         }
 
-        if (GetComponent<Rigidbody2D>().velocity.x > 0 && gameObject.transform.position.x > 22.1)
+        if (GetComponent<Rigidbody2D>().velocity.x > 0 && gameObject.transform.position.x > 21.9)
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
         }
@@ -56,6 +58,16 @@ public class CloudConChord : MonoBehaviour
 
         if (Input.GetKeyDown("space") && spawnedYet == "y")
         {
+            spawnedYet = "n";   
+        }
+        if (Input.GetMouseButtonDown(0) && spawnedYet == "y")
+        {
+            var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            if (mousePos.x < 18.0 || mousePos.x > 21.9)
+            {
+                mousePos.x = 20;
+            }
+            cloudxPos = new Vector2(mousePos.x, gameObject.transform.position.y);
             spawnedYet = "n";   
         }
     }
@@ -72,8 +84,10 @@ public class CloudConChord : MonoBehaviour
 
     void replaceFruit()
     {
+
         if (newFruit == "y")
         {
+            scoreValue += whichChord;
             newFruit = "n";
             if (whichChord + 1 < chordObj.Length)
             {

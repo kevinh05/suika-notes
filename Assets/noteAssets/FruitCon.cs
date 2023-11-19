@@ -30,7 +30,7 @@ public class FruitCon : MonoBehaviour
             GetComponent<Rigidbody2D>().gravityScale = 0;
         }
 
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") || Input.GetMouseButtonDown(0))
         {
             GetComponent<Rigidbody2D>().gravityScale = 1;
             inTheCloud = "n";
