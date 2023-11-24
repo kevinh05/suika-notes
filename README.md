@@ -31,7 +31,7 @@
     <a href="https://github.com/kevinh05/suika-notes"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/kevinh05/suika-notes">View Demo</a>
+    <a href="https://kevinh05.github.io/suika-notes/">View Demo</a>
     ·
     <a href="https://github.com/kevinh05/suika-notes/issues">Report Bug</a>
     ·
