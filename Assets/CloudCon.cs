@@ -61,7 +61,7 @@ public class CloudCon : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && spawnedYet == "y")
         {
             var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            if (mousePos.x < -2.0 || mousePos.x > 2.0 || mousePos.y < -2.5 )
+            if (mousePos.x < -2.0 || mousePos.x > 2.0)
             {
                 mousePos.x = 0;
             }

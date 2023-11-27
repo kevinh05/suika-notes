@@ -81,7 +81,7 @@ private void OnCollisionEnter2D(Collision2D collision)
         CloudConChord.spawnPos.x = (this.transform.position.x + collision.collider.transform.position.x) / 2;
         CloudConChord.spawnPos.y = (this.transform.position.y + collision.collider.transform.position.y) / 2;
         CloudConChord.newFruit = "y";
-        CloudConChord.whichChord = combos[toCreate];
+        CloudConChord.whichChord = combos[toCreate] - 1;
         Destroy(gameObject);
     }
 }
